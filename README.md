@@ -1,2 +1,19 @@
 # weather-cli
-This is a weather app that you enter your city name and it gives you the temperature, weather condation, humidity and wind speed. 
+
+A command-line weather application that allows you to enter a city name and get:
+- Temperature
+- Weather condition
+- Humidity
+- Wind speed
+
+## Features
+- Uses OpenWeatherMap API
+- Accepts any city name as a command-line argument
+- Displays real-time weather information
+
+## Installation
+
+Install the required Python library:
+
+```bash
+pip install requests
